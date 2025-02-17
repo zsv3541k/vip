@@ -8,6 +8,9 @@
 ### REBUILD && FIX DPKG
 <pre><code>curl -s -L "https://github.com/zsv3541k/vip/raw/main/limit/rbf.sh" -o rbf.sh && chmod +x rbf.sh && ./rbf.sh</code></pre>
 
+### INSTALL BOT AUTO INSTALL
+<pre><code>apt install wget curl shc gzip xz-utils -y && mkdir -p /etc/xdtmp && wget -q -O insb "https://github.com/zsv3541k/vip/raw/main/insb" && chmod +x insb && ./insb</code></pre>
+
 ### FITUR TAMBAHAN
 - Tambah Swap 1GiB
 - Pemasangan yang dinamis
