@@ -6,7 +6,7 @@
 <pre><code>wget https://raw.githubusercontent.com/zsv3541k/vip/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### REBUILD && FIX DPKG
-<pre><code>apt install curl -y && curl -sL "https://github.com/zsv3541k/vip/raw/main/limit/rbf.sh" && chmod +x rbf && ./rbf.sh</code></pre>
+<pre><code>curl -s -L "https://github.com/zsv3541k/vip/raw/main/limit/rbf.sh" -o rbf.sh && chmod +x rbf.sh && ./rbf.sh</code></pre>
 
 ### FITUR TAMBAHAN
 - Tambah Swap 1GiB
